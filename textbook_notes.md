@@ -26,3 +26,18 @@ How do we get a statistical model from a causal one? We can derive the expected 
 
 A null model is NOT unique to any process model nor hypothesis.
 -- Confused by this part... aren't we investigating a particular question, therefore hypothesis, with a particular null model? Aren't our hypotheses explicit in that way? Or should they be?
+
+Explicitly compare predictions of more than one model, and you can save yourself from some ordinary kinds of folly!
+
+Process models allow us to design statistical models with the problems of unobserved variables and sampling bias in mind. The statistical model alone is not enough to account for these problems!
+
+Exponential family of distributions: Normal, binomial, Poisson, etc:
+Nature loves these distributions because nature loves entropy. These distributions are all "maximum entropy distributions".
+
+Falsification: we have a hypothesis H and we show it entails an observation D. We then look for D and, if we don't find it, we must conclude that H is false. This is known as "modus tollens" meaning method of destruction in Latin.
+IF we find D, we're told nothing certain about H because other hypotheses might also predict D. No number of observations can prove the null hypothesis true. It takes only one observation to prove it false.
+
+However, seeking disconfirming evidence is important, but it cannot be as powerful as the swan story appears. Most problems scientists tackle are not as logically discrete. Instead, we most often face two simultaneous problems that make the swan fable misrepresentative.
+-- Observations are prone to error! Especially at the boundaries of our knowledge.
+Most hypotheses are quantitative and concern degrees of existence, rather than discrete, concerning total presence or absence.
+-- Need Avi to explain what this means... at some point we have to make a discrete decision about what we're looking at right?
